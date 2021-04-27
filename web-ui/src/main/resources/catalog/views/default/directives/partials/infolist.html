@@ -18,14 +18,22 @@
       </div>
 
       <div class="gn-md-thumbnail">
-        <a href=""
-           gn-metadata-open="md"
-           gn-records="searchResults.records"
-           gn-formatter="formatter.defaultUrl">
-          <div class="gn-img-thumbnail"
-               style="background-image: url({{md.getThumbnails().list[0].url}})">
-          </div>
-        </a>
+        <img class="gn-img-thumbnail"
+             alt="{{md.title || md.defaultTitle}}"
+             data-ng-src="{{md.getThumbnails().list[0].url}}"
+             data-ng-if="md.getThumbnails().list[0].url"/>
+        <img class="gn-img-thumbnail"
+             alt="{{md.title || md.defaultTitle}}"
+             data-ng-src="http://sma.ide.azores.gov.pt/assets/cdg.jpg"
+             data-ng-if="!md.getThumbnails().list[0].url && md.type[0]==='dataset'"/>
+        <img class="gn-img-thumbnail"
+             alt="{{md.title || md.defaultTitle}}"
+             data-ng-src="http://sma.ide.azores.gov.pt/assets/services.jpg"
+             data-ng-if="!md.getThumbnails().list[0].url && (md.type[0]==='service' || md.type[0]==='service-view')"/>
+        <img class="gn-img-thumbnail"
+             alt="{{md.title || md.defaultTitle}}"
+             data-ng-src="http://sma.ide.azores.gov.pt/assets/series.jpg"
+             data-ng-if="!md.getThumbnails().list[0].url && md.type[0]==='series'"/>
       </div>
 
       <div class="content">

@@ -1870,6 +1870,30 @@
     </entry>
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
     <entry>
+      <code>service-view</code>
+      <label>Serviço de visualização</label>
+      <description>Informação aplica-se a um serviço de visualização</description>
+    </entry>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <entry>
+      <code>service-download</code>
+      <label>Serviço de descarregamento</label>
+      <description>Informação aplica-se a um serviço de descarregamento</description>
+    </entry>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <entry>
+      <code>service-other</code>
+      <label>Serviço (outro)</label>
+      <description>Informação aplica-se a outros tipos de serviços</description>
+    </entry>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <entry>
+      <code>datasetNonINSPIRECompliant</code>
+      <label>Conjunto de dados não conforme com INSPIRE</label>
+      <description>Informação aplica-se ao conjunto de dados não conforme com INSPIRE</description>
+    </entry>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <entry>
       <code>series</code>
       <label>Série</label>
       <description>Informação aplica-se à série</description>

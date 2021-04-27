@@ -82,6 +82,7 @@ goog.require('gn_alert');
             'fre': 'fr',
             'ger': 'de',
             'kor': 'ko',
+            'por': 'pt',
             'spa': 'es',
             'cze': 'cs',
             'cat': 'ca',
@@ -537,7 +538,7 @@ goog.require('gn_alert');
       // Lang names to be displayed in language selector
       $scope.langLabels = {'eng': 'English', 'dut': 'Nederlands',
         'fre': 'Français', 'ger': 'Deutsch', 'kor': '한국의',
-        'spa': 'Español', 'por': 'Portuguesa', 'cat': 'Català', 'cze': 'Czech',
+        'spa': 'Español', 'por': 'Português', 'cat': 'Català', 'cze': 'Czech',
         'ita': 'Italiano', 'fin': 'Suomeksi', 'ice': 'Íslenska',
         'rus': 'русский', 'chi': '中文', 'slo': 'Slovenčina'};
       $scope.url = '';

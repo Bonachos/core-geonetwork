@@ -44,10 +44,11 @@ public abstract class AbstractThesaurusBasedTest {
             _isoLanguagesMap639.put("de", "ger");
             _isoLanguagesMap639.put("fr", "fre");
             _isoLanguagesMap639.put("it", "ita");
+            _isoLanguagesMap639.put("pt", "por");
         }
     };
     protected final static int keywords = 1000;
-    protected final String[] languages = {"eng", "ger", "fre", "ita"};
+    protected final String[] languages = {"eng", "ger", "fre", "ita", "por"};
     private final boolean readonly;
     @Rule
     public TemporaryFolder folder = new TemporaryFolder();

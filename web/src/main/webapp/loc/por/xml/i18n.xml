@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<i18n>
+  <viewInGE>Ver no Google Earth</viewInGE>
+  <warning>Alerta!</warning>
+  <addA>Acrescentar</addA>
+  <nojs>Javascript desabilitado. Active-o ou clique
+    <a
+      href="../search">aqui para pesquisar
+    </a>
+    em modo reduzido.
+  </nojs>
+  <selectView>Escolher Vista</selectView>
+  <moreTabs>Mais informação</moreTabs>
+  <nodeChangeWarning>Alerta por mudança de nó</nodeChangeWarning>
+  <nodeChangeInfo>Alerta: Já não se encontra no mesmo modo com que iniciou sessão.</nodeChangeInfo>
+  <nodeChangeBack>Se pretender retornar ao modo com que iniciou sessão, clique:</nodeChangeBack>
+  <nodeChangeForward>Se desejar terminar sessão e retornar ao endereço anterior clique:
+  </nodeChangeForward>
+  <serviceNotAllowedTitle>Serviço indisponível</serviceNotAllowedTitle>
+  <serviceNotAllowed>O serviço {1} não existe ou não possui permissões para acedê-lo.
+  </serviceNotAllowed>
+  <linkToHome>
+    <span>Retornar à <a href="../..">página de pesquisa</a>.
+    </span>
+  </linkToHome>
+</i18n>
